@@ -1,0 +1,10 @@
+{
+  "short_name": "Tic Tac Toe",
+  "name": "Tic Tac Toe",
+  "description" : "Classic Tic Tac Toe game",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "index.html",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}

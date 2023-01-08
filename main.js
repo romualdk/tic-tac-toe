@@ -1,3 +1,20 @@
+import TicTacToe from './TicTacToe.js'
+
+const ttt = new TicTacToe()
+
+ttt.nextTurn(0, 0)
+ttt.log()
+ttt.nextTurn(1, 0)
+ttt.log()
+ttt.nextTurn(2, 0)
+ttt.log()
+ttt.nextTurn(1, 1)
+ttt.log()
+ttt.nextTurn(0, 1)
+ttt.log()
+ttt.nextTurn(1, 2)
+ttt.log()
+
 function min (a, b) {
   return a < b ? a : b
 }
@@ -17,7 +34,3 @@ function resize () {
 
 document.body.onresize = resize
 resize()
-
-const score1 = document.getElementsByClassName('score1')[0]
-console.log(score1)
-score1.textContent = '12'

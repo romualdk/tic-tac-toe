@@ -1,0 +1,25 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "standard",
+    "start": "npx serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romualdk/tic-tac-toe.git"
+  },
+  "keywords": [
+    "game",
+    "tic-tac-toe",
+    "noughts-and-crosses"
+  ],
+  "author": "Romuald Kowalczyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romualdk/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/romualdk/tic-tac-toe#readme"
+}
